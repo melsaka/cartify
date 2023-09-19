@@ -1,0 +1,32 @@
+{
+    "name": "melsaka/cartify",
+    "description": "A versatile and customizable shopping cart package for Laravel, simplifying e-commerce development.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Melsaka\\Cartify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elsaka",
+            "email": "sakaz8050@gmail.com",
+            "homepage": "https://github.com/melsaka",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.75"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Melsaka\\Cartify\\CartifyServiceProvider"
+            ]
+        }
+    }
+}
